@@ -5,7 +5,7 @@ import java.io.*;
 public class Main {
     public static void main(String[] args){
 
-        File file = new File("Test.txt");
+        File file = new File("MyFile.txt");
         try {
             FileOutputStream stream = new FileOutputStream(file);
             ObjectOutputStream outputStream = new ObjectOutputStream(stream);
