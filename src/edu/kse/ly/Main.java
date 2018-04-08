@@ -10,8 +10,8 @@ public class Main {
             FileOutputStream stream = new FileOutputStream(file);
             ObjectOutputStream outputStream = new ObjectOutputStream(stream);
             outputStream.writeObject(new Test());
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (IOException WWW) {
+            WWW.printStackTrace();
         }
         System.out.println("Done.");
     }
